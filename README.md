@@ -14,7 +14,7 @@ A project to practice interview concepts in iOS
 ### Architecture Diagram
 [draw.io in process...]
 
-Currently I'm designing how the Spotijam app will handle the `access_token` and `token_refresh` provide them by the Spotfy API. This piece of diagram considers a SplashView as entry point.
+Currently I'm designing how the Spotijam app will handle the `access_token` and `refresh_token` provide them by the Spotfy API. This piece of diagram considers a SplashView as entry point.
 
 ![](resources/sequence_diagram.png)
 
