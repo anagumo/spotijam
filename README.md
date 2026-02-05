@@ -16,7 +16,7 @@ A project to practice interview concepts in iOS
 
 Currently I'm designing how the Spotijam app will handle the `access_token` and `refresh_token` provide them by the Spotfy API. This piece of diagram considers a SplashView as entry point.
 
-![](resources/sequence_diagram.png)
+![](resources/sequence_diagram_updated.png)
 
 1. When the user opens the app, the `AuthDataSource` will validate the session. If there is not an `access_token`, it will perform a login request using the garant type: "authorization_code".
 2. If there is an `access_token` but is expired, the `AuthDataSource` will get the `refresh_token` to fetch a new `acces_token`.
